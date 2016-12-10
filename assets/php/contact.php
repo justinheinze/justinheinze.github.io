@@ -6,7 +6,7 @@
     $message = ( $_REQUEST['user-message'] ) ? $_REQUEST['user-message'] : '';
     $status = $_REQUEST['user-status'];
 
-    $to = 'youremail@domain.com';
+    $to = 'justin@justinheinze.co';
     $message = 'Name: '.$name.'<br /> Email: '.$email.'<br />Message: '.$message;
 
     $subject = 'Subject';
