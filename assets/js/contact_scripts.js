@@ -201,14 +201,14 @@ $(document).ready(function () {
 var map;
 function initMap() {
     map = new google.maps.Map(document.getElementById('map'), {
-        center: {lat: 39.987686, lng: -82.970916},
+        center: {lat: 44.986412, lng: -93.275586},
         zoom: 8,
         scrollwheel: false
     });
 
     var image = './assets/img/marker-' + $('#stylesheet-new').attr('data-color') + '.png';
     var beachMarker = new google.maps.Marker({
-        position: {lat: 39.987686, lng: -82.970916},
+        position: {lat: 44.986412, lng: -93.275586},
         map: map,
         title: 'UkieWeb',
         icon: image
