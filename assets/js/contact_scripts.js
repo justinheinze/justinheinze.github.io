@@ -210,7 +210,7 @@ function initMap() {
     var beachMarker = new google.maps.Marker({
         position: {lat: 44.986412, lng: -93.275586},
         map: map,
-        title: 'UkieWeb',
+        title: 'Minneapolis',
         icon: image
     });
 
